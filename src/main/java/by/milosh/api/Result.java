@@ -1,6 +1,6 @@
 package by.milosh.api;
 
-public class Result {
+public class Result implements TaskResult {
 
     private int steps;
 

@@ -2,7 +2,7 @@ package by.milosh.api;
 
 import java.util.List;
 
-public class Tournament {
+public class Tournament implements TaskTournament {
 
     private List<Attempt> attempts;
 

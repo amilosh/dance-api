@@ -5,3 +5,4 @@
 2. Add entities structure.
 3. Add logic by step number definition.
 4. Add limitation.
+5. Add interfaces.

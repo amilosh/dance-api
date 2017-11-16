@@ -1,6 +1,6 @@
 package by.milosh.api;
 
-public class Dancer {
+public class Dancer implements TaskDancer {
 
     private int serialNumber;
 

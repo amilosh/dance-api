@@ -1,6 +1,6 @@
 package by.milosh.api;
 
-public class Attempt {
+public class Attempt implements TaskAttempt {
 
     private Dancer dancer;
 
