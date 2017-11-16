@@ -7,6 +7,7 @@
 4. Add limitation.
 5. Add interfaces.
 6. Add comments and description.
+7. Add tests.
 
 ## Description
 Программа имеет следующую структуру.
