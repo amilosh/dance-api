@@ -1,13 +1,20 @@
 package by.milosh.api;
 
+/**
+ * A representation of attempt by the condition of our problem.
+ *
+ * @author Aliaksandr Milash
+ */
 public class Attempt implements TaskAttempt {
 
+    // ~ Instance fields
+    // ================================================================================================
     private Dancer dancer;
-
     private Platform platform;
-
     private Result result;
 
+    // ~ Constructors
+    // ===================================================================================================
     public Attempt() {
     }
 
@@ -19,6 +26,8 @@ public class Attempt implements TaskAttempt {
         this.result = result1;
     }
 
+    // ~ Methods
+    // ========================================================================================================
     public Dancer getDancer() {
         return dancer;
     }

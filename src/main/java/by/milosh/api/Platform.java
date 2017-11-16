@@ -2,11 +2,17 @@ package by.milosh.api;
 
 public class Platform {
 
+    // ~ Static fields/initializers
+    // ================================================================================================
     public static final int MIN_VALUE = 2;
     public static final int MAX_VALUE = 49;
 
+    // ~ Instance fields
+    // ================================================================================================
     private int[] sequenceNumber;
 
+    // ~ Constructors
+    // ===================================================================================================
     public Platform() {
     }
 
@@ -18,6 +24,8 @@ public class Platform {
         this.sequenceNumber = sequenceNumber;
     }
 
+    // ~ Methods
+    // ========================================================================================================
     public int[] getSequenceNumber() {
         return sequenceNumber;
     }

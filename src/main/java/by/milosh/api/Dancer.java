@@ -2,10 +2,13 @@ package by.milosh.api;
 
 public class Dancer implements TaskDancer {
 
+    // ~ Instance fields
+    // ================================================================================================
     private int serialNumber;
-
     private String name;
 
+    // ~ Constructors
+    // ===================================================================================================
     public Dancer() {
     }
 
@@ -14,6 +17,8 @@ public class Dancer implements TaskDancer {
         this.name = name;
     }
 
+    // ~ Methods
+    // ========================================================================================================
     public int getSerialNumber() {
         return serialNumber;
     }
