@@ -10,6 +10,7 @@ public class Platform {
     // ~ Instance fields
     // ================================================================================================
     private int[] sequenceNumber;
+    private int size;
 
     // ~ Constructors
     // ===================================================================================================
@@ -36,5 +37,14 @@ public class Platform {
             throw new NumberFormatException("Sequence number size value out of range. It must be between " + MIN_VALUE +  " and " + MAX_VALUE + " inclusive.");
         }
         this.sequenceNumber = sequenceNumber;
+        this.size = sequenceNumber.length;
+    }
+
+    public int getSize() {
+        return size;
+    }
+
+    public void setSize(int size) {
+        this.size = sequenceNumber.length;
     }
 }

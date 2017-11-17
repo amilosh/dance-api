@@ -8,6 +8,7 @@
 5. Add interfaces.
 6. Add comments and description.
 7. Add tests.
+8. Add OOP.
 
 ## Description
 Программа имеет следующую структуру.

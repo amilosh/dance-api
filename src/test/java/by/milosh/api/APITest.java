@@ -13,7 +13,7 @@ public class APITest {
         dancer.setName("Alexander");
         dancer.setSerialNumber(1);
 
-        int[] sequenceNumber = {2, 3, 1};
+        int[] sequenceNumber = {2, 0, 4, 100};
         int[] sequenceNumberLooping = {4, 2, 1, 3, 3};  // for looping
 
         Platform platform = new Platform();
